@@ -9,14 +9,14 @@ const FlightSummaryTable = ({ flights }) => {
       </h2>
 
       {/* FLIGHT LIST */}
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-3">
         {flights.map((flight, index) => (
           <div
             key={index}
             className="relative flex flex-col md:flex-row items-start md:items-center border border-[#541C9C] rounded-xl overflow-hidden shadow-sm bg-white"
           >
             {/* LEFT DATE BOX WITH ARROW OUTLINE */}
-            <div className="relative flex items-center justify-center w-full md:w-[150px] h-[45px] font-semibold text-[13px] bg-[#F9EEFF] text-black border-b md:border-b-0 md:border-r border-[#6C33C5] text-center">
+            <div className="relative flex items-center justify-center w-full md:w-[150px] h-[43px] font-semibold text-[13px] bg-[#F9EEFF] text-black border-b md:border-b-0 md:border-r border-[#6C33C5] text-center">
               {flight.date}
 
               {/* OUTLINE ARROW (only visible on desktop) */}
