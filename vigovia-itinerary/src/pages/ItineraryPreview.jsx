@@ -79,7 +79,7 @@ const ItineraryPreview = () => {
 
 
   // ✏️ Edit Button Navigation
-  const handleEdit = () => navigate("/edit");
+  const handleEdit = () => navigate("/");
 
   // ⏳ Fallback for missing data
   if (!itineraryData?.header) {
