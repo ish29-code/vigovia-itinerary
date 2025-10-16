@@ -2,7 +2,7 @@ import React from "react";
 
 const FlightSummaryTable = ({ flights }) => {
   return (
-    <div className="mt-6 w-full">
+    <div className="mt-2 w-full">
       {/* HEADING */}
       <h2 className="text-[20px] md:text-[22px] font-semibold text-gray-900 mb-4 text-center md:text-left">
         Flight <span className="text-[#6C33C5]">Summary</span>
