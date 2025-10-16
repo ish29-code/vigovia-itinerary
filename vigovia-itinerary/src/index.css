@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* 🩹 Force Tailwind to render colors as RGB instead of oklch() */
+* {
+  color-scheme: light !important;
+}
+
+html {
+  color-scheme: light !important;
+}
+
