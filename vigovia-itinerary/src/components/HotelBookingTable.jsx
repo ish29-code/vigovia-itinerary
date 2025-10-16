@@ -1,9 +1,9 @@
 import React from "react";
 
 const HotelBookingTable = ({ hotels }) => (
-  <div className="mt-3">
+  <div className="mt-2">
     {/* TITLE */}
-    <h2 className="text-[18px] font-semibold text-gray-900 mb-4">
+    <h2 className="text-[20px] font-semibold text-gray-900 mb-4">
       Hotel <span className="text-[#6C33C5]">Bookings</span>
     </h2>
 
