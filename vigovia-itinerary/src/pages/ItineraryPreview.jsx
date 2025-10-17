@@ -109,9 +109,11 @@ const ItineraryPreview = () => {
         {/* PAGE 2 — Day 4 + Flights + Hotels */}
         <div className="page bg-white w-[210mm] h-[297mm] flex flex-col justify-between shadow-lg rounded-2xl p-8 overflow-hidden">
           <div>
-            <DayPlanCard {...itineraryData.days[3]} />
-            <FlightSummaryTable flights={itineraryData.flights} />
-            <HotelBookingTable hotels={itineraryData.hotels} />
+               {itineraryData.days[3] && (
+                        <DayPlanCard {...itineraryData.days[3]} />
+               )}
+              <FlightSummaryTable flights={itineraryData.flights} />
+              <HotelBookingTable hotels={itineraryData.hotels} />
           </div>
           <Footer />
         </div>
